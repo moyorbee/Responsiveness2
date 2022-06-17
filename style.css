@@ -1,0 +1,452 @@
+*{
+   box-sizing: border-box;
+   
+    
+}
+
+body{
+    margin: 0;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;   
+}
+
+.nav button{
+    background-color: white;
+    color: black;
+    padding: 5px 80px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+
+}
+
+header{
+    background-image: url(bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding: 50px;
+}
+
+header button{
+    background-color: hsl(322, 100%, 66%);
+    padding: 20px 30px;
+    border-style: none;
+    color: white;
+    border-radius: 50px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.top img{
+    
+}
+
+.toptext{
+    
+    padding: 100px;
+   
+}
+
+.toptext h1{
+    font-size: 50px;
+    
+   
+}
+
+main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.toptext p{
+    
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.grow{
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 100px 100px 50px 100px;
+    border-radius: 20px;
+    padding: 50px 0 50px 150px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    
+    
+}
+
+.growimage{
+  
+   
+    
+
+    
+}
+
+.growtext{
+    align-self: center;
+    padding-right: 100px;
+    
+}
+.growtext h1{
+    
+}
+
+.growtext p{
+ font-size: 20px;
+}
+
+.flow{
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin:0 100px 50px  100px;
+    border-radius: 20px;
+    padding: 50px 0 50px 150px;
+    
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.flowtext{
+    align-self: center;
+}
+.flowtext h1{
+    
+}
+
+.flowtext p{
+ font-size: 20px;
+}
+
+.user{
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin:0 100px 50px  100px;
+    border-radius: 20px;
+    padding: 50px 0 50px 150px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.usertext p{
+    font-size: 20px;
+    
+   }
+
+.usertext{
+    align-self: center;
+}   
+
+.userimage{
+    padding-left: 100px;
+    
+} 
+
+
+
+.topfooter{
+    
+    text-align: center;
+   padding: 90px;
+    margin:0 500px;
+    background-color: white;
+    margin-bottom: -100px;
+    position: relative;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 50px;
+    overflow: hidden;
+
+    
+
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding: ;
+}
+
+
+.topfooter button{
+    background-color: hsl(322, 100%, 66%);
+    padding: 20px 50px;
+    border-style: none;
+    color: white;
+    border-radius: 50px;
+}
+ .f{
+    padding: 0 20px;
+
+ }
+
+ .i{
+    padding: 0 20px;
+ }
+.mainfooter{
+    background-color:  hsl(192, 100%, 9%);
+    color: white;
+    padding: 190px 0;
+    
+}
+
+.submain{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+button:hover{
+    background-color:  hsl(322, 69%, 75%);;
+}
+
+a:hover{
+    color:red;
+}
+
+@media only screen and (max-width: 357px){
+    .nav{
+        display: flex;
+        align-content: space-between;
+        
+        margin-bottom: 100px;   
+    }
+    .logo{
+        width: 70px;
+    }
+    
+    .nav button{
+        background-color: white;
+        color: black;
+        padding: 5px 40px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        
+    
+    }
+
+    .nav h3{
+        font-size: 10px;
+    }
+    
+    header{
+        background-image: url(bg-hero-desktop.svg);
+        background-color: hsl(193, 100%, 96%);
+        padding: 50px;
+    }
+    
+    header button{
+        background-color: hsl(322, 100%, 66%);
+        padding: 10px 30px;
+        text-align: center;
+        border-style: none;
+        color: white;
+        border-radius: 50px;
+        margin-bottom: 20px;
+        
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    }
+    .top img{
+        
+    }
+    
+    .toptext{
+        
+        padding: 0;
+       
+    }
+    
+    .toptext h1{
+        font-size: 25px;
+        
+       
+    }
+
+    .toptext p{
+        
+        text-align: center;
+    }
+    
+    main{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    
+    .toptext p{
+        
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    
+    .grow{
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 15px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        
+        
+    }
+    
+    .growimage{
+      
+       
+        
+    
+        
+    }
+    
+    .growtext{
+        align-self: center;
+        padding-right: 0px;
+        
+    }
+    .growtext h1{
+        
+    }
+    
+    .growtext p{
+     font-size: 20px;
+    }
+    
+    .flow{
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 15px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    }
+    
+    .flowtext{
+        align-self: center;
+    }
+    .flowtext h1{
+        
+    }
+    
+    .flowtext p{
+     font-size: 20px;
+    }
+    
+    .user{
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 15px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    }
+    
+    .usertext p{
+        font-size: 20px;
+        
+       }
+    
+    .usertext{
+        align-self: center;
+    }   
+    
+    .userimage{
+        padding-left: 100px;
+        
+    } 
+    
+    
+    
+    .topfooter{
+        
+        text-align: center;
+       padding: 40px;
+        margin:100px 20px;
+        background-color: white;
+        margin-bottom: -100px;
+        position: relative;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        border-radius: 50px;
+        overflow: hidden;
+    
+        
+    
+    }
+
+    .topfooter h1{
+        font-size: 19px;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: space-between;
+        padding: ;
+    }
+    
+    
+    .topfooter button{
+        background-color: hsl(322, 100%, 66%);
+        padding: 5px 30px;
+        border-style: none;
+        color: white;
+        border-radius: 50px;
+        font-size: 8px;
+    }
+     .f{
+        padding: 0 20px;
+    
+     }
+    
+     .i{
+        padding: 0 20px;
+     }
+    .mainfooter{
+        background-color:  hsl(192, 100%, 9%);
+        color: white;
+        padding: 190px 0;
+        
+    }
+    
+    .submain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 20px;
+        padding: 20px;
+    
+        
+        
+    }
+    
